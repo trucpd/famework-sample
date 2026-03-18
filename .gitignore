@@ -1,0 +1,11 @@
+# Build results
+bin/
+obj/
+*.user
+*.suo
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+project.nuget.cache
