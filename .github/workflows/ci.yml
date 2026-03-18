@@ -8,7 +8,9 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: [self-hosted, windows]
+    permissions:
+      contents: read
 
     steps:
       - name: Checkout repository
